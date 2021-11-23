@@ -105,6 +105,10 @@ if (isset($_POST['submitBtn'])) {
   .navbar {
     background-color: #436461;
   }
+
+  #features{
+    color: white;
+  }
 </style>
 <!-- <body style="background-image: url(asset/img/view.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: cover; "> -->
 <!-- navbar-->
@@ -276,21 +280,21 @@ if (isset($_POST['submitBtn'])) {
                   <svg class="svg-icon mb-3 text-primary svg-icon-big">
                     <use xlink:href="#list-details-1"> </use>
                   </svg>
-                  <h2 class="h5">Submit Online Application</h2>
+                  <h2 id="features" class="h5">Submit Online Application</h2>
                   <p class="text-muted text-small mb-0">Easy to submit application via our website.</p>
                 </div>
                 <div class="col-lg-4 mb-4 mb-lg-0">
                   <svg class="svg-icon mb-3 text-primary svg-icon-big">
                     <use xlink:href="#survey-1"> </use>
                   </svg>
-                  <h2 class="h5">Gather your info</h2>
+                  <h2 id="features" class="h5">Gather your info</h2>
                   <p class="text-muted text-small mb-0">Easy to view your information and other announcement via our portal</p>
                 </div>
                 <div class="col-lg-4">
                   <svg class="svg-icon mb-3 text-primary svg-icon-big">
                     <use xlink:href="#stack-1"> </use>
                   </svg>
-                  <h2 class="h5">Organize Files</h2>
+                  <h2 id="features" class="h5">Organize Files</h2>
                   <p class="text-muted text-small mb-0">We can easily assist and inform you by visiting our portal and official website</p>
                 </div>
               </div>
